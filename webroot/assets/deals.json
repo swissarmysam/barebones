@@ -1,0 +1,58 @@
+{
+    "001":
+    {
+        "image": "assets/images/GitHub_Logo.png",
+        "name": "GitHub Education Pack",
+        "link": "https://education.github.com/pack",
+        "offer": "A must-have for computing/technology students. Offer includes free domains, hosting and other tools",
+        "cat": "Technology",
+        "tags": ["computing",
+                "technology",
+                "tools"]
+    },
+    "002":
+    {
+        "image": "",
+        "name": "Notion Student Plan",
+        "link": "https://www.notion.so/Notion-for-students-teachers-adc631df15ee4ab9a7a33dd50f4c16fe#56eb5a68bb864af090b0e9609b6b26dc",
+        "offer": "Get organised with this all-in-one workspace. Take class notes, create a reading list and plan nights out (really)",
+        "cat": "Study",
+        "tags": ["notes",
+                "study",
+                "workspace"]
+    },
+    "003":
+    {
+        "image": "",
+        "name": "Axure RP",
+        "link": "https://www.axure.com/edu",
+        "offer": "An industry standard visual tool for creating prototypes and more with no-code",
+        "cat": "Technology",
+        "tags": ["computing",
+                "technology",
+                "tools"]
+    },
+    "004":
+    {
+        "image": "",
+        "name": "Amazon Prime Student",
+        "link": "https://www.amazon.co.uk/amazonprime?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&planOptimizationId=WLPStudentMonthlyEligiblePlans&primeCampaignId=studentWlpPrimeRedir&ref_=st_wlp_pr_redir",
+        "offer": "Get free one-day delivery, access to Prime Video and discounts on loads of products",
+        "cat": "Shopping",
+        "tags": ["shopping",
+                "buy",
+                "online"]
+    },
+    "005":
+    {
+        "image": "",
+        "name": "Amazon Music Unlimited Student",
+        "link": "https://www.amazon.co.uk/gp/dmusic/promotions/AmazonMusicUnlimitedStudent/ref=dmm_cg_sthpcgdt_1a1_w?/ref=s9_acss_bw_cg_sthpcgdt_3a1_w?pf_rd_m=A3P5ROKL5A1OLE&pf_rd_s=merchandised-search-5&pf_rd_r=N1KEY6W5HC3P7V5FM0XK&pf_rd_t=101&pf_rd_p=3283778b-b9ad-4f52-9063-65be2df234ac&pf_rd_i=2973324031",
+        "offer": "Get ad-free music free for 6 months",
+        "cat": "Entertainment",
+        "tags": ["alexa",
+                "entertainment",
+                "music"]
+    }
+}
+

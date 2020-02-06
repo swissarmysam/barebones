@@ -1,0 +1,204 @@
+/*
+
+*/
+
+body {
+    margin: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4F0073;
+    background: linear-gradient(120deg, #4F0073, #8F00A5);
+}
+
+body:not(.user-tabbing) button:focus {
+    outline: none;
+}
+
+header, footer {
+    display: grid;
+    grid-template-columns: 1fr 10%;
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0,0,0,0.28);
+    margin: 30px 0 30px 20px;
+}
+
+::selection {
+    color: white;
+    background: red;
+}
+
+.filters {
+    margin: 10px 0 0 20px;
+}
+
+.filter {
+    text-decoration:none;
+    background: none;
+    color: white;
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    min-width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter:nth-child(n+2) {
+    margin-left: 30px;
+}
+
+.filter:focus, .filter:hover {
+    background: rgba(255,255,255,0.18);
+}
+
+
+.wrapper {
+    margin: 40px 20px 40px 20px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px,250px);
+    gap: 40px;
+    grid-auto-flow: row dense;
+}
+
+#deal {
+    align-self: center;
+}
+
+.card {
+    grid-area: span 1;
+    background: #330056;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 0 0 15px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.28);
+}
+
+.card > * {
+    width: 90%;
+}
+
+.title > h3 {
+    margin-bottom: 4px;
+}
+.title > span {
+    padding: 0;
+}
+
+.info {
+    font-weight: 400;
+}
+
+.info > a {
+    color:white;
+    text-decoration: underline;
+}
+
+.show {
+    display: block;
+    animation: fadein 500ms 1;
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+form {
+    grid-column: 1 / -1;
+}
+
+.submit-h3 {
+    color: white;
+    margin: 0.5em;
+}
+
+label {
+    padding: 1rem;
+    color: white;
+}
+
+input {
+    border: 0;
+    border-radius: 2em;
+    padding: 0.85rem;
+    min-width: 240px;
+    margin-bottom: 1em;
+    margin-top: 0.25em;
+}
+
+button[type='submit'] {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.85rem;
+    border: 0;
+    outline: white;
+    border-radius: 2em;
+    background-color: #B625DD;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+button[type='submit']:hover {
+    background-color: #B625DD;
+}
+
+a[href] {
+    color: white;
+}
+
+/* ----------- Mobiles ----------- */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 799px) {
+      
+    header, footer {
+        text-shadow: 1px 1px rgba(0,0,0,0.28);
+        margin: 15px 0 15px 10px;
+        grid-template-columns: 1fr 20%;
+    }
+
+    header > h1 {
+
+        font-size: 1.25rem;
+
+    }
+
+    .filter:nth-child(n+2) {
+        margin-left: 0px;
+    }
+
+    .filter {
+        margin-bottom: 0.5em;
+    }
+
+}
+
+/* ---------- Tablets and low res desktops -------------- */
+
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1400px) {
+      
+    header, footer {
+        text-shadow: 1px 1px rgba(0,0,0,0.28);
+        margin: 15px 0 15px 10px;
+        grid-template-columns: 1fr 20%;
+    }
+
+    header > h1 {
+
+        font-size: 1.5rem;
+
+    }
+
+}
