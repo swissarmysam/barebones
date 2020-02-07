@@ -8,7 +8,7 @@ body {
     background-color: #4F0073;
     background: linear-gradient(120deg, #4F0073, #8F00A5);
     height: 100vh;
-    overflow-y: scroll;
+    overflow-y: scroll; 
 }
 
 body:not(.user-tabbing) button:focus {
