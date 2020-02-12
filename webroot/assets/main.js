@@ -27,6 +27,8 @@ function loadJSON() {
                                     </div>
                                     <p>${deals[idx][1].offer}</p>
                                     <a href="${deals[idx][1].link}" target="_blank" rel="noopener">Visit website</a>
+                                    <br><br>
+                                    <p class="small-text">Last checked: <span class="small-text">${deals[idx][1].lastChecked}</span></p>
                                 </div>
                             </div>`;
                 document.querySelector(".wrapper").innerHTML += item;
