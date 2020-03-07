@@ -9,7 +9,7 @@
             "technology",
             "tools"
         ],
-        "lastChecked": "Feb 2020"
+        "lastChecked": "Mar 2020"
     },
     "002": {
         "image": "",
@@ -21,7 +21,7 @@
             "study",
             "workspace"
         ],
-        "lastChecked": "Feb 2020"
+        "lastChecked": "Mar 2020"
     },
     "003": {
         "image": "",
@@ -33,7 +33,7 @@
             "technology",
             "tools"
         ],
-        "lastChecked": "Feb 2020"
+        "lastChecked": "Mar 2020"
     },
     "004": {
         "image": "",
@@ -45,7 +45,7 @@
             "buy",
             "online"
         ],
-        "lastChecked": "Feb 2020"
+        "lastChecked": "Mar 2020"
     },
     "005": {
         "image": "",
@@ -57,7 +57,7 @@
             "entertainment",
             "music"
         ],
-        "lastChecked": "Feb 2020"
+        "lastChecked": "Mar 2020"
     },
     "006": {
         "image": "",
@@ -69,6 +69,18 @@
             "entertainment",
             "trial"
         ],
-        "lastChecked": "Feb 2020"
+        "lastChecked": "Mar 2020"
+    },
+    "007": {
+        "image": "",
+        "name": "GuideGuide",
+        "link": "https://guideguide.me/pricing/",
+        "offer": "Grids and guides plugin for Adobe CC apps and Sketch. Free whilst a student.",
+        "cat": "Technology",
+        "tags": ["design",
+            "adobe",
+            "tools"
+        ],
+        "lastChecked": "Mar 2020"
     }
 }
